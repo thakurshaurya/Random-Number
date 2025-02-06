@@ -1,6 +1,66 @@
-*{
+* {
     font-family: "Roboto Mono", serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    font-style : normal;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: hsla(206, 42%, 93%, 0.836);
+    text-align: center;
+    height: 100px;
+    width: 100vw;
+    padding: 10px;
+    box-shadow: 2px 3px 4px 2px;
+    /* font-size: 2vw; */
+}
+
+body {
+    background-image: url(Images/Green_Background.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 700px;
+    width: 600px;
+    background-color: hsla(206, 42%, 93%, 0.836);
+    padding: 10px;
+    margin: 60px;
+    border-radius: 7px;
+    box-shadow: 2px 3px 4px 2px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.guess {
+    position: relative;
+    top: 380px;
+    font-size: 1vw;
+}
+
+#Congrat {
+    font-size: 2vw;
+    padding-bottom: 0;
+}
+
+#Out {
+    padding-bottom: 0;
+    font-size: 2vw;
+}
+
+#image {
+    height: 250px;
+    position: relative;
+    /* top: 7vh; */
+    display: none;
+    left: 10vw;
 }

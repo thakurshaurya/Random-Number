@@ -16,18 +16,26 @@
 <body>
     <header>
         <h1>Welcome To The Random Number Game</h1>
-        <h2>Guess The Correct Number</h2>
+        <h2>Guess The Correct Number Between 1 And 10</h2>
     </header>
     <hr>
     <main>
-        <div class="body">
-            <h3 id="guess">
+        <div class="box">
+            <h1 id="Congrat">
+
+            </h1>
+            <h3 id="Out">
 
             </h3>
-            <label for="guess">Enter Your Guess:</label>
-            <input type="number" id=guess>
+            <label for="guess" class="guess">Enter Your Guess:</label>
+            <input type="text" id="inp" class="guess">
+            <button id="btn" class="btn guess">Submit</button>
+            <div class="img">
+                <img src="Images/istockphoto-157030584-612x612.jpg" alt="Congratulation" id="image">
+            </div>
         </div>
     </main>
+    <script src="Randomnum.js"></script>
 </body>
 
 </html>
