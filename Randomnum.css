@@ -37,13 +37,12 @@ main {
     margin: 60px;
     border-radius: 7px;
     box-shadow: 2px 3px 4px 2px;
-    box-sizing: border-box;
     text-align: center;
 }
 
 .guess {
-    position: relative;
-    top: 380px;
+    /* position: relative;
+    top: 38vh; */
     font-size: 1vw;
 }
 
@@ -63,4 +62,13 @@ main {
     /* top: 7vh; */
     display: none;
     left: 10vw;
+    padding-bottom: 0;
+    
+}
+.box2{
+    display: inline-block;
+    position: absolute;
+    top: 610px;
+    left: 580px;
+    box-sizing: border-box;
 }
