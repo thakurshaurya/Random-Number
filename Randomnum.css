@@ -14,7 +14,6 @@ header {
     width: 100vw;
     padding: 10px;
     box-shadow: 2px 3px 4px 2px;
-    /* font-size: 2vw; */
 }
 
 body {
@@ -41,8 +40,8 @@ main {
 }
 
 .guess {
-    /* position: relative;
-    top: 38vh; */
+    position: relative;
+    top: 7vh;
     font-size: 1vw;
 }
 
@@ -59,7 +58,6 @@ main {
 #image {
     height: 250px;
     position: relative;
-    /* top: 7vh; */
     display: none;
     left: 10vw;
     padding-bottom: 0;
@@ -67,8 +65,4 @@ main {
 }
 .box2{
     display: inline-block;
-    position: absolute;
-    top: 610px;
-    left: 580px;
-    box-sizing: border-box;
 }
