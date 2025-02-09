@@ -13,9 +13,10 @@ document.getElementById("btn").onclick = function () {
         document.getElementById("Congrat").textContent = "Try Again :(";
         count++;
         document.getElementById("inp").value = "";
-
-    }
+         
+    } 
 }
+document.getElementById("inp").onkeydown
 document.getElementById("inp").value = "";
 document.getElementById("btnreset").onclick = function () {
     document.getElementById("inp").value = "";
