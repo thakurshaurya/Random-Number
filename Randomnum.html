@@ -10,8 +10,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="Randomnum.css">
-        <link rel="icon" href="Images/istockphoto-157030584-612x612.jpg">
+    <link rel="stylesheet" href="Randomnum.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="Images/istockphoto-157030584-612x612.jpg">
 </head>
 
 <body>
@@ -19,23 +20,20 @@
         <h1>Welcome To The Random Number Game</h1>
         <h2>Guess The Correct Number Between 1 And 10</h2>
     </header>
-    <hr>
     <main>
-        <div class="box">
-            <h1 id="Congrat">
-
-            </h1>
-            <h3 id="Out">
-
-            </h3>
-            <div class="img">
-                <img src="Images/istockphoto-157030584-612x612.jpg" alt="Congratulation" id="image">
-            </div>
-            <div class="box2">
-                <label for="guess" class="guess">Enter Your Guess:</label>
-                <input type="text" id="inp" class="guess">
-                <button id="btn" class="btn guess">Submit</button>
-                <button id="btnreset" class="btn guess">Reset</button>
+        <div class="container">
+            <div class="box">
+                <h1 id="Congrat"></h1>
+                <h3 id="Out"></h3>
+                <div class="img">
+                    <img src="Images/istockphoto-157030584-612x612.jpg" alt="Congratulation" id="image">
+                </div>
+                <div class="box2">
+                    <label for="guess" class="guess">Enter Your Guess:</label>
+                    <input type="text" id="inp" class="guess" placeholder="Enter a Number">
+                    <button id="btn" class="btn guess">Submit</button>
+                    <button id="btnreset" class="btn guess">Reset</button>
+                </div>
             </div>
         </div>
     </main>

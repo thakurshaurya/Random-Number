@@ -7,42 +7,44 @@
     padding: 0;
 }
 
+:root {
+    --main-bg-color: hsla(206, 42%, 93%, 0.836);
+}
+
 header {
-    background-color: hsla(206, 42%, 93%, 0.836);
+    background-color: var(--main-bg-color);
     text-align: center;
-    height: 100px;
-    width: 100vw;
+    min-height: 10vh;
+    width: 100%;
     padding: 10px;
     box-shadow: 2px 3px 4px 2px;
 }
 
 body {
-    background-image: url(Images/Green_Background.jpg);
-    background-size: cover;
     overflow: hidden;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: rgba(45, 182, 136, 0.926);
 }
 
 .box {
-    height: 700px;
-    width: 600px;
-    background-color: hsla(206, 42%, 93%, 0.836);
+    height: 70vh;
+    width: 35vw;
+    background-color: var(--main-bg-color);
     padding: 10px;
-    margin: 60px;
+    margin: 60px auto;
     border-radius: 7px;
     box-shadow: 2px 3px 4px 2px;
     text-align: center;
+    overflow: scroll;
+    min-width: 363.3px;
 }
 
 .guess {
     position: relative;
     top: 7vh;
-    font-size: 1vw;
+    font-size: 2vw;
+    padding: 5px;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 #Congrat {
@@ -56,13 +58,11 @@ main {
 }
 
 #image {
-    height: 250px;
-    position: relative;
+    height: 25vh;
+    margin: 5px auto;
     display: none;
-    left: 10vw;
-    padding-bottom: 0;
-    
 }
-.box2{
+
+.box2 {
     display: inline-block;
 }
