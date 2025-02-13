@@ -1,6 +1,6 @@
 @media screen and (max-width: 500px) {
-    body {
-        /* overflow: hidden; */
+    header body {
+        overflow: hidden;
     }
 
     .guess {
@@ -12,6 +12,8 @@
     .box {
         margin: 40px auto;
         height: 60vh;
+        position: absolute;
+        margin-left: 23px;
     }
 
     .btn {
