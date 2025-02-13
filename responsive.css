@@ -1,16 +1,17 @@
 @media screen and (max-width: 500px) {
     body {
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     .guess {
-        font-size: 6vw;
+        font-size: 5vw;
         margin-top: 6px;
         margin-bottom: 6px;
     }
 
     .box {
         margin: 40px auto;
+        height: 60vh;
     }
 
     .btn {
