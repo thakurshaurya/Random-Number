@@ -1,7 +1,7 @@
 let Out;
 let guess;
 let count = 0;
-let maxnum = 100;
+let maxnum = 100 ;
 let minnum = 1;
 Out = Math.floor(Math.random() * maxnum) + minnum;
 
